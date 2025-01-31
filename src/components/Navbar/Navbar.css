@@ -1,0 +1,77 @@
+/* Logo */
+html {
+    scroll-behavior: smooth;
+  }
+  
+.navbar img {
+    height: 70px;
+    width: 90px;
+    margin-left: 12px;
+}
+
+/* Background color for the body */
+body {
+    background-color: black;
+    margin: 0;
+}
+
+/* Navbar container */
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    width: 100%; /* Adjusts the navbar width */
+    
+    background-color: black;
+    z-index: 1000;  /* Ensures the navbar is on top */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 10px 20px;
+    border-radius: 10px; /* Optional: Adds rounded corners to the navbar */
+    position: fixed;
+    top: 0; /* Ensure it stays at the top of the page */
+    left: 0; /* Ensures proper alignment */
+    right: 0; /* Ensures it covers the full width */
+}
+
+/* Nav menu list styling */
+.nav-menu {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 40px; /* Adjust gap for better spacing */
+    font-size: 20px;
+    justify-content: center;align-items: center;
+    cursor: pointer;
+    /* margin-left: 20px; */
+}
+
+/* Connect button styling */
+.nav-connect {
+    padding: 10px 20px;
+    border-radius: 50px;
+    background: linear-gradient(orange, rgb(237, 6, 187));
+    font-size: 22px;
+    cursor: pointer;
+    transition: 0.5s;
+    margin-left: 80px;
+}
+
+.nav-connect:hover {
+    transform: scale(1.1);
+}
+
+/* Image in the navbar */
+.nav-menu li img {
+    display: flex;
+    margin: auto;
+    width: 50px;
+    margin-top: -20px;
+}
+
+/* Styling for AnchorLinks */
+.anchor-link {
+    text-decoration: none;
+    color: white;
+}
+

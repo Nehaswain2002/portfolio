@@ -1,0 +1,138 @@
+.projects {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+    margin: 80px 170px;
+}
+
+.project-title {
+    position: relative;
+    font-size: 25px;
+    font-weight: 600;/
+}
+
+.project-title img {
+    position: absolute;
+   right: 0;
+    z-index: -1;
+    bottom: 0;
+   
+}
+
+.project-format {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 60px;
+    border-radius: 10px;
+
+    border: 2px solid rgb(240, 235, 235);
+    cursor: pointer;
+    transition: 0.4s;
+   
+}
+.project-format h3{
+    margin: 20px;
+}
+.project-format p{
+    margin: 20px;
+}
+.project-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 40px;
+    margin-bottom: 80px;
+    
+}
+
+  
+/* .project-format h3 {
+    font-size: 28px;
+    font-weight: 600;
+} */
+
+/* 
+.project-format p {
+    color: #f1ecec;
+    font-size: 18px;
+} */
+
+/* .project-container h2 {
+    padding: 20px;
+} */
+
+.project-readmore {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.project-format:hover {
+    border: 2px solid rgb(87, 123, 128);
+    background-image: linear-gradient(45deg, rgb(22, 81, 126), black);
+    transform: scale(1.05);
+    transition: 0.4s;
+}
+.project-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 columns */
+    grid-template-rows: repeat(3, auto); /* 3 rows with dynamic height */
+    gap: 40px; /* Space between grid items */
+    margin: 40px 20px; /* Margins for outer spacing */
+    padding: 20px; /* Inner padding for consistent spacing */
+}
+.project-title h1 {
+    font-size: 2.5rem; /* Adjust font size for consistency */
+    font-weight: 700; /* Make the text bold */
+    color: #e3dde3; /* Add a vibrant color */
+    text-align: center; /* Center the text */
+    margin: 20px auto; /* Center vertically with spacing */
+    text-transform: capitalize; /* Capitalize each word */
+    line-height: 1.2; /* Add better spacing between lines */
+    max-width: 800px; /* Limit width to prevent stretching */
+    padding: 10px; /* Add inner padding */
+    word-break: break-word; /* Ensure text wraps properly */
+}
+
+.project-format {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 40px; /* Reduced gap between child elements */
+    padding: 20px; /* Inner padding for better spacing inside each item */
+    border-radius: 10px;
+    border: 2px solid rgb(240, 235, 235);
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.project-format h3 {
+    margin: 10px 0; /* Reduced margin for cleaner spacing */
+    font-size: 24px; /* Adjust font size */
+    font-weight: 600;
+}
+
+.project-format p {
+    margin: 5px 0; /* Smaller margin between paragraphs */
+    font-size: 19px; /* Adjust text size for readability */
+    line-height: 1.5; /* Increase line height for better readability */
+}
+
+.project-readmore {
+    display: flex;
+    gap: 10px; /* Adjusted gap for read-more section */
+    align-items: center;
+    margin-top: 5px; /* Reduced spacing above */
+}
+.project-format h3 {
+    margin: 10px 0; /* Existing margin */
+    font-size: 29px; /* Existing font size */
+    font-weight: 600; /* Existing font weight */
+    color: #ba17ac; /* Add your desired color (e.g., a shade of blue) */
+    text-transform: capitalize; /* Optional: Capitalize the text for a clean look */
+}
+
+
